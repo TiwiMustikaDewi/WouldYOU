@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #efa1ff;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    text-align: center;
+    padding-top: 50px; /* Adjust this value to move the text further down */
+}   
+.textme {
+    font-size: 1.2em;
+    width: 800px;
+    height: auto; 
+    background-color: #520029;
+    text-align: justify;
+    padding: 30px 100px;
+    margin: 20px 10px 10px 20px;
+    border-radius: 50px;
+   box-shadow: 5px 5px 5px #ffffff;
+    float: left;
+    line-height: 2em;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}

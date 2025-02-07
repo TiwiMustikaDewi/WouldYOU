@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song For You</title>
+    <link rel="stylesheet" href="./songs.css">
+</head>
+<body>
+    <div class="playlist-song">
+        <h1>Playlist Song</h1>
+        <p>Actually, I want add more songs. But, I'm tired to edit this.</p>
+        <div class="box-kiri">
+            <img src="gambar/blue.png" alt="Song Image">
+            <!-- Tambahkan elemen <a> untuk membuat teks dapat diklik -->
+            <p><a href="#" onclick="listenBlue()">Listen this Song</a></p>
+        </div>
+        <div class="box-kanan">
+            <img src="gambar/mine.jpg" alt="Song Image">
+            <p><a href="#" onclick="listenMine()">Listen this Song</a></p>
+        </div>
+        <div class="box-tengah">
+            <img src="gambar/sunny.jpg" alt="Song Image">
+            <p><a href="#" onclick="listenSunny()">Listen this Song</a></p>
+        </div>
+    </div>
+    <script>
+        function listenBlue() {
+            window.location.href = 'https://www.youtube.com/watch?v=IpFX2vq8HKw';
+        }
+    </script>
+    <script>
+        function listenMine() {
+            window.location.href = 'https://www.youtube.com/watch?v=vx4kLgnFexo';
+        }
+        </script>
+    <script>
+        function listenSunny() {
+            window.location.href = 'https://www.youtube.com/watch?v=ApXoWvfEYVU';
+        }
+        </script>
+</body>
+</html>
